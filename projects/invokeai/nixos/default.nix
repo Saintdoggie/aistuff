@@ -53,7 +53,7 @@ in
         options = {
           host = mkOption {
             description = "Which IP address to listen on.";
-            default = "127.0.0.1";
+            default = "0.0.0.0";
             type = types.str;
           };
 
